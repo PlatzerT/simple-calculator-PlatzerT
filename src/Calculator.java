@@ -8,9 +8,9 @@ public class Calculator extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/view/CalculatorView.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("view/CalculatorView.fxml"));
         primaryStage.setTitle("Calculator");
-        primaryStage.setScene(new Scene(root));
+        primaryStage.setScene(new Scene(root, 350, 400));
         primaryStage.show();
     }
 
