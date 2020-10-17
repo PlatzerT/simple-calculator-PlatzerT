@@ -14,16 +14,10 @@ public class CalculatorController {
     boolean wasEquals = false;
 
     @FXML
-    private Button equals;
-
-    @FXML
-    private Button clear;
-
-    @FXML
     private Label display;
 
     @FXML
-    void equals() throws ScriptException
+    void equals()
     {
         try {
             ScriptEngineManager manager = new ScriptEngineManager();
